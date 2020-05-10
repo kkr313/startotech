@@ -8171,7 +8171,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   z-index: 3;
   background: rgba(255, 255, 255, 0.05) !important;
-  color: rgba(255, 255, 255, 0.5);
+   color: rgb(29, 28, 28);
   font-size: 14px; }
   @media (max-width: 991.98px) {
     .top {
@@ -8187,7 +8187,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (min-width: 992px) {
     .ftco-navbar-light {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+/*       border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
       padding-bottom: 10px; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
@@ -8653,7 +8653,8 @@ h1, h2, h3, h4, h5,
   @media (min-width: 992px) {
     .featured {
       margin-top: -230px;
-      border-top: 1px solid rgba(255, 255, 255, 0.1); } }
+/*       border-top: 1px solid rgba(255, 255, 255, 0.1);  */
+	  } }
   .featured .featured-menus {
     width: 100%;
     margin-bottom: 20px;
