@@ -9903,3 +9903,15 @@ hr.q-line {
   padding: 7px 20px;
   cursor: pointer;
 }
+.pr-btn {
+  background: #ab0406 !important;
+  border: 1px solid #ab0406 !important;
+  border-radius: 25px;
+}
+
+.pr-btn:hover {
+  background: #ab0406 !important;
+  border: 1px solid #ab0406 !important;
+  border-radius: 25px;
+  color: #fff !important;
+}
