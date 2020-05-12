@@ -10040,3 +10040,9 @@ button.btn.btn-outline-success:hover {
   content: none;
   outline: none;
 }
+
+.about-para {
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
