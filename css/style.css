@@ -10046,3 +10046,15 @@ button.btn.btn-outline-success:hover {
   margin-bottom: 0px;
 }
 
+.menu-imgs.img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px 2px rgba(0.2,0.2,0.2,0.2), inset 0 5px 5px rgba(0.5,0.5,0.5,0.5);
+}
+
