@@ -9919,3 +9919,13 @@ hr.q-line {
   border-radius: 25px;
   color: #fff !important;
 }
+.title{
+  color: #980708 !important;
+  font-weight: 600 !important;
+}
+
+.title-text{
+  color: #000 !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+}
