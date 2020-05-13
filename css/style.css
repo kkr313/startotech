@@ -9826,12 +9826,15 @@ textarea.form-control {
   transition: transform .9s;
   border-radius: 20px;
   transition-property: border-radius;
+  border: 0.1px solid #e6e6e6;
+
 }
 
 .menu-img.img {
   transition: transform .9s;
   border-radius: 0px;
   transition-property: border-radius;
+  border: 0.1px solid #e6e6e6;
 }
 
 
