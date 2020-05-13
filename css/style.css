@@ -9890,7 +9890,7 @@ hr.q-line {
   outline: none;
   font-size: 15px;
   border: none;
-  padding: 7px 20px;
+  padding: 10px 20px;
 }
 
 .info-btn:hover {
@@ -9900,9 +9900,10 @@ hr.q-line {
   outline: none;
   font-size: 15px;
   border: none;
-  padding: 7px 20px;
+  padding: 10px 20px;
   cursor: pointer;
 }
+
 .pr-btn {
   background: #ab0406 !important;
   border: 1px solid #ab0406 !important;
