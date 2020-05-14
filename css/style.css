@@ -8745,7 +8745,6 @@ h1, h2, h3, h4, h5,
 
 .services {
   width: 100%;
-  height: 120%;
   display: block;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -8760,7 +8759,6 @@ h1, h2, h3, h4, h5,
 }
 .services:hover {
   width: 100%;
-  height: 120%;
   display: block;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -10153,4 +10151,64 @@ p.h-para {
   background: transparent !important;
   color: transparent !important;
   cursor: auto !important;
+}
+
+.recent-link {
+  margin-left: 7px;
+}
+
+.recent-link:hover {
+  margin-left: 7px;
+  color: #ab0406 !important;
+}
+
+.sec{
+  padding-left: 70px;
+}
+.social-icon{
+  padding: 0px 47px;
+}
+
+li.ftco-animate.fadeInUp.ftco-animated:hover {
+  background: #ab0406;
+  border-radius: 20PX;
+}
+
+.h-d {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: transparent !important;
+  background: #151414;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.i-des {
+  font-size: 40px;
+  line-height: 1.9 !important;;
+  margin-top: 20px;
+  color: #e5e5e5;
+  height: 100px;
+  width: 100px;
+  background: radial-gradient(#a91919, transparent);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.d-para{
+  line-height: 1.5;
+  text-align: justify;
+  padding: 22px;
+}
+
+.detail-btn{
+  float: right !important;
+  margin-bottom: 20px !important;
+  margin-right: 11px !important;
+}
+
+.bg-col {
+  background: #928e8e !important;
 }
