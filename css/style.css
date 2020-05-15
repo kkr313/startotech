@@ -10212,3 +10212,88 @@ li.ftco-animate.fadeInUp.ftco-animated:hover {
 .bg-col {
   background: #928e8e !important;
 }
+
+.menu-text::first-letter{
+    font-size: 200%;
+}
+.card {
+  position: relative;
+}
+.card-corner::before {
+  content: '';
+  width: 250px;
+  height: 150px;
+  max-height: 100%;
+  position: absolute;
+  background: #00a589;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
+}
+.card-corner::after {
+  content: '';
+  width: 250px;
+  height: 150px;
+  max-height: 100%;
+  position: absolute;
+  background: #00a589; 
+  top: -10px;
+  right: -10px;
+  z-index: -1;
+}
+.card-connectors-top::before {
+  content: '';
+  position: absolute;
+  background: #00a589;
+  width: 20px;
+  height: 5px;
+  top: 40px;
+  border-radius: 0 2.5px 2.5px 0;
+}
+.card-connectors-top::after {
+  content: '';
+  position: absolute;
+  background: #00a589;
+  width: 5px;
+  height: 20px;
+  left: 40px;
+  border-radius: 0 0 2.5px 2.5px;
+}
+.card-connectors-bottom::before {
+  content: '';
+  position: absolute;
+  background: #00a589;
+  width: 5px;
+  height: 20px;
+  right: 40px;
+  bottom: 0;
+  border-radius: 2.5px 2.5px 0 0;
+}
+.card-connectors-bottom::after {
+  content: '';
+  position: absolute;
+  background: #00a589;
+  width: 20px;
+  height: 5px;
+  bottom: 40px;
+  right: 0;
+  border-radius: 2.5px 0 0 2.5px;
+}
+.card-inner {
+  background: #fff;
+  padding: 3em;
+  z-index: 2;
+}
+.card-inner .button-holder {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.card-inner .btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background: #0087af;
+  padding: 10px 20px;
+}
+
