@@ -9044,8 +9044,10 @@ h1, h2, h3, h4, h5,
     .blog-entry .text .meta-chat {
       color: rgba(0, 0, 0, 0.3); }
     .blog-entry .text .read {
-      color: #000000;
-      font-size: 14px; }
+      color: #ab0406;
+      font-size: 14px;
+      cursor: pointer;
+     }
   .blog-entry .meta > div {
     display: inline-block;
     margin-right: 5px;
@@ -9534,7 +9536,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #000000; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #c8a97e; }
+        color: #ab0406; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
@@ -9567,7 +9569,9 @@ textarea.form-control {
   border: 1px solid #ccc;
   font-size: 11px; }
   .tagcloud a:hover {
-    border: 1px solid #000; }
+    background: #ab0406;
+    color: #fff;
+}
 
 .comment-form-wrap {
   clear: both; }
@@ -9922,6 +9926,10 @@ hr.q-line {
   border: 1px solid #ab0406 !important;
   border-radius: 25px;
   color: #fff !important;
+}
+
+.f-image{
+  margin-left: 50px ;
 }
 
 .title{
