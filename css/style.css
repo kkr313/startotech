@@ -8593,7 +8593,7 @@ h1, h2, h3, h4, h5,
   box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1); }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
-  .btn.btn-primary {
+  .submit-btn {
     height: 48px;
     background: #fff;
     border: 1px solid #ab0406;
@@ -8603,7 +8603,7 @@ h1, h2, h3, h4, h5,
     line-height: 1;
     border-radius: 4px;
   }
-    .btn.btn-primary:hover {
+    .submit-btn:hover {
       height: 48px;
       background: #ab0406;
       border: 1px solid #ab0406;
