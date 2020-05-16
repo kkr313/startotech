@@ -8594,13 +8594,25 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #c8a97e;
-    border: 1px solid #c8a97e;
-    color: #fff; }
+    height: 48px;
+    background: #fff;
+    border: 1px solid #ab0406;
+    color: #ab0406;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+    border-radius: 4px;
+  }
     .btn.btn-primary:hover {
-      border: 1px solid #c8a97e;
-      background: transparent;
-      color: #c8a97e; }
+      height: 48px;
+      background: #ab0406;
+      border: 1px solid #ab0406;
+      color: #fff;
+      margin: 0px;
+      padding: 0px;
+      line-height: 1;
+      border-radius: 4px;
+    }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #c8a97e;
       background: transparent;
@@ -9080,17 +9092,7 @@ h1, h2, h3, h4, h5,
       color: #fff;
       border: 1px solid transparent; }
 
-.form-control {
-  height: 52px !important;
-  background: #fff !important;
-  color: #000000 !important;
-  font-size: 16px;
-  border-radius: 0px;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  border: 1px solid rgba(0, 0, 0, 0.1); }
-  .form-control:focus, .form-control:active {
-    border-color: #000000; }
+
 
 textarea.form-control {
   height: inherit !important; }
@@ -9110,7 +9112,9 @@ textarea.form-control {
   position: relative; }
 
 .ftco-no-pt {
-  padding-top: 0; }
+  padding-top: 0; 
+  margin-top: 100px;
+}
 
 .ftco-no-pb {
   padding-bottom: 0; }
@@ -9244,10 +9248,10 @@ textarea.form-control {
   .media .ftco-icon span {
     color: #c8a97e; }
 
-#map {
+#googleMap {
   width: 100%; }
   @media (max-width: 767.98px) {
-    #map {
+    #googleMap {
       height: 300px; } }
 
 @-webkit-keyframes pulse {
@@ -9512,7 +9516,8 @@ textarea.form-control {
 .contact-section .contact-info p {
   color: #000000; }
   .contact-section .contact-info p a {
-    color: #c8a97e; }
+    color: #7b7878; 
+  }
 
 .contact-section .dbox {
   width: 100%; }
@@ -10349,4 +10354,12 @@ li.ftco-animate.fadeInUp.ftco-animated:hover {
   height: 350px;
   width: 400px;
   margin: auto 30%;
+}
+
+.contact-bg{
+  background: #ffffff4f !important;
+}
+
+.form-section{
+  padding: 100px 100px !important;
 }
