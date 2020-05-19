@@ -131,22 +131,22 @@
 							<input type="text" class="form-control" placeholder="Phone">
 						</div>
 					</div>
-					<div class="col-md-12 mt-3">
+						<div class="col-md-12 mt-3">
 						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" selected>
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="service" value="service" checked>
 							<label class="form-check-label" for="inlineRadio1">Service</label>
+							                                                                                  
 						  </div>
 						  <div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="product" value="product">
 							<label class="form-check-label" for="inlineRadio2">Product</label>
 						</div>
 					</div>
-					
-					<div class="col-md-6">
+					<div class="col-md-6" id="servSt">
 						<div class="form-group">
 							<label for="">Service</label>
 							<div class="select-wrap one-third">
-								<select name="" id="" class="form-control">
+								<select name="data" id="" class="form-control">
 									<option value="Industrial Automation">Industrial Automation</option>
 									<option value="PLC SCADA Automation">PLC SCADA Automation</option>
 									<option value="SPM">SPM</option>
@@ -158,18 +158,18 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" id="prodSt" style="display:none;">
 						<div class="form-group">
 							<label for="">Product</label>
 							<div class="select-wrap one-third">
-								<select name="" id="" class="form-control">
+								<select name="data" id="" class="form-control">
 									<option value="Solenoid valves">Solenoid Valves</option>
 									<option value="Automation Products">Automation Products</option>
 									<option value="Jigs & Fixtures">Jigs & Fixtures</option>
 									<option value="Pneumatic Valves">Pneumatic Valves</option>
 									<option value="others">Others</option>
 								</select>
-							</div>
+							</div>               
 						</div>
 					</div>
 						<div class="col-md-6">
@@ -274,6 +274,32 @@
 	<script src="js/scrollax.min.js"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		$(function() {
+    		$('input[name="inlineRadioOptions"]').on('click', function() {
+        if ($(this).val() == 'service') {
+            $('#servSt').show();
+        }
+        else {
+            $('#servSt').hide();
+        }
+    });
+});
+	</script>
+
+<script>
+	$(function() {
+    $('input[name="inlineRadioOptions"]').on('click', function() {
+        if ($(this).val() == 'product') {
+            $('#prodSt').show();
+            $('#servSt').hide();
+        }
+        else {
+            $('#prodSt').hide();
+        }
+    });
+});
+</script>
 
 </body>
 
