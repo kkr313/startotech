@@ -10364,3 +10364,8 @@ li.ftco-animate.fadeInUp.ftco-animated:hover {
   padding: 100px 100px !important;
 }
 
+@media screen and (max-width: 600px) {
+  .form-section{
+  padding: 0px 0px !important;
+    }
+}
